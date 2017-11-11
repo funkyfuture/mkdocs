@@ -73,6 +73,7 @@ setup(
         ],
         'mkdocs.plugins': [
             'legacy_search = mkdocs.contrib.legacy_search:SearchPlugin',
+            'scripts = mkdocs.contrib.scripts:ScriptsPlugin',
         ],
     },
     classifiers=[
